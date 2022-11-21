@@ -1,0 +1,33 @@
+[
+      {
+        "name": "Jayson Tatum",
+        "position": "Small Forward and Power Forward",
+        "college": "Duke",
+        "shoots": "Right"
+      },
+      {
+        "name": "Al Horford",
+        "position": "Center",
+        "college": "University of Florida",
+        "shoots": "Right"
+      },
+      {
+        "name": "Jaylen Brown",
+        "position": "Shooting Guard and Small Forward",
+        "college": "California",
+        "shoots": "Right"
+      },
+      {
+        "name": "Robert Williams",
+        "position": "Center",
+        "college": "Texas A&M",
+        "shoots": "Right"
+      },
+      {
+        "name": "Marcus Smart",
+        "position": "Point Guard and Shooting Guard",
+        "college": "Oklahoma State",
+        "shoots": "Right"
+      }
+  ]
+  
