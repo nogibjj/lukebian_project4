@@ -1,4 +1,3 @@
-
 import json
 import os
 from typing import Literal, Optional
@@ -9,6 +8,12 @@ from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
 from mangum import Mangum
 
+
+class Players(BaseModel):
+    name: str
+    position: str
+    college: str
+    shoots: str
 app = FastAPI()
 
 Players_FILE = "players.json"
@@ -36,3 +41,4 @@ async def list_players():
 @app.get("/random-player")
 async def random_player():
     return random.choice(PLAYERS)
+
