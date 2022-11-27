@@ -1,4 +1,9 @@
 # lukebian_project4
+
+### This is the repo for individual project4 IDS706. 
+### In this project, I built a NBA Players FastAPI and show the five members in celtics teams. After build the API on github, I deploy it on the AWS using lambda function, so that, you can access the heep endnote using the url.
+
+
 ### We'll need to modify the API so that it has a Lambda handler. Use Mangum:
 ```
 from mangum import Mangum
