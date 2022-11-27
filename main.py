@@ -14,7 +14,9 @@ class Players(BaseModel):
     position: str
     college: str
     shoots: str
+
 app = FastAPI()
+handler = Mangum(app)
 
 Players_FILE = "players.json"
 PLAYERS = []
